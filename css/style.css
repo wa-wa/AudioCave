@@ -1,0 +1,62 @@
+/* Global Styling*/
+body {
+  padding: 1em 0 0 0;
+  margin: 0;
+  background-color: #292E31;
+}
+
+/* Wrappers */
+#logo-wrapper {
+  background-image: url('../images/logo-image4.png');
+  background-position:top;
+  background-attachment:fixed;
+  padding: 3em;
+  margin: 0 3em 0 3em;
+}
+
+#main-wrapper {
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  margin: 0 3em 0 3em;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 0 3em 0 3em;
+}
+
+/* Main */
+.music {
+  padding: 20px;
+  margin: 0 0 0 0;
+}
+
+.card {
+  height: 200px;
+  background-color: #292E31;
+  margin: 1em;
+}
+
+.card a > img {
+  height:190px;
+  width:210px;
+  padding: 20px 15px 15px 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #fff;
+  height: auto;
+  width: auto;
+  background-color: #000;
+  margin: 0 3em 1em 3em;
+}
+
+.companies a {
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+}
