@@ -1,42 +1,68 @@
 /* Global Styling*/
 body {
-  padding: 1em 0 0 0;
+  padding: 0;
   margin: 0;
-  background-color: #292E31;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  opacity: 0.5;
+
 }
 
 /* Wrappers */
-#logo-wrapper {
-  background-image: url('../images/logo-image4.png');
-  background-position:top;
-  background-attachment:fixed;
-  padding: 3em;
-  margin: 0 3em 0 3em;
+
+#top-wrapper {
+  background-image: url('../images/background5.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #fff;
+  color: #fff;
+  height: 560px;
+  width: 100%;
+  padding: 12em 6em 6em 6em;
+  margin: 0 1em 0 1em;
 }
 
 #main-wrapper {
   height: auto;
   width: auto;
+  background-color: #EEF8FF;
+  margin: 0 1em 0 1em;
+}
+
+#banner-wrapper {
+  background-image: url('../images/background4.jpg');
+  background-position:top;
+  background-attachment: fixed;
   background-color: #fff;
-  margin: 0 3em 0 3em;
+  color: #fff;
+  height: auto;
+  width: auto;
+  margin: 1em;
+  padding: 3em;
 }
 
 /* Navbar */
 
 .navbar {
-    margin: 0 3em 0 3em;
+    margin: 0 1em 0 1em;
 }
 
 /* Main */
 .music {
   padding: 20px;
-  margin: 0 0 0 0;
+  margin: 0 0 0 4em;
 }
 
 .card {
   height: 200px;
   background-color: #292E31;
   margin: 1em;
+  width: auto;
+
 }
 
 .card a > img {
@@ -48,15 +74,15 @@ body {
 /* Footer */
 footer {
   text-align: center;
-  color: #fff;
+  color: #000;
   height: auto;
   width: auto;
-  background-color: #000;
-  margin: 0 3em 1em 3em;
+  margin: 3em 3em 0 3em;
 }
 
-.companies a {
+.footer-wrapper a {
+  font-size: 10px;
   padding: 25px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
