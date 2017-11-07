@@ -5,10 +5,6 @@ body {
   color: #000;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
-}
-
-a:hover {
-  opacity: 0.5;
 
 }
 
@@ -21,27 +17,29 @@ a:hover {
   background-color: #fff;
   color: #fff;
   height: 560px;
-  width: 100%;
-  padding: 12em 6em 6em 6em;
+  width: auto;
+  padding: 12em 0 6em 0;
   margin: 0 1em 0 1em;
+  text-align: center;
 }
 
 #main-wrapper {
   height: auto;
   width: auto;
   background-color: #EEF8FF;
-  margin: 0 1em 0 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #banner-wrapper {
   background-image: url('../images/background4.jpg');
-  background-position:top;
+  background-position: top;
   background-attachment: fixed;
   background-color: #fff;
   color: #fff;
   height: auto;
   width: auto;
-  margin: 1em;
+  margin-top: 1em;
   padding: 3em;
 }
 
@@ -52,23 +50,45 @@ a:hover {
 }
 
 /* Main */
-.music {
+
+.row {
   padding: 20px;
-  margin: 0 0 0 4em;
+  margin: 30px;
 }
 
-.card {
-  height: 200px;
-  background-color: #292E31;
-  margin: 1em;
-  width: auto;
-
+.image {
+  margin-top: 30px;
 }
 
-.card a > img {
-  height:190px;
-  width:210px;
-  padding: 20px 15px 15px 6px;
+.image:hover {
+  opacity: 0.5;
+}
+
+ img {
+  width: 100%;
+  height: auto;
+  float: left;
+  max-width: 235px;
+}
+
+/* Button */
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+    position: relative;
+    left: 750px;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Footer */
