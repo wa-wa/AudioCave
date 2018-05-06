@@ -1,2 +1,2 @@
-# AudioCave - [LVL]: Beginner
+# AudioCave
 A music site/app
